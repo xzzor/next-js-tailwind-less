@@ -6,11 +6,9 @@ import { Button } from 'antd'
 
 const Home: NextPage = () => {
   return (
-    <>
-    <h1 className='cursor-pointer text-green-600 text-center mt-44'>Hello Tailwind</h1>
-    <Button type='primary'>CLick me! Please</Button>
-    
-    </>
+    <div className='w-full h-screen flex justify-center items-center bg-stone-900'>
+      <h1 className='text-5xl text-indigo-500'>Hello World!</h1>
+    </div>
   )
 }
 
